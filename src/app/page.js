@@ -43,26 +43,26 @@ export default function Home() {
               Listado de palabras
             </h5>
             <textarea
-              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              className="shadow appearance-none border rounded w-full pb-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               id="username"
               rows="5"
               placeholder="Listado de palabras "
               name="list"
               required></textarea>
           </div>
-          <div className="mb-6">
+          <div className="mb-4">
             <h5 className="block text-2xl font-bold mb-2">Matriz</h5>
             <textarea
               id="message"
               rows="14"
-              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              className="shadow appearance-none border rounded w-full pb-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               placeholder="Tu matriz separada por comas..."
               name="matriz"
               required></textarea>
           </div>
           <div className="flex items-center justify-between">
             <button
-              className="bg-[#13151a] hover:bg-gray-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+              className="bg-[#13151a] hover:bg-gray-700 text-white font-bold pm-2 px-4 rounded focus:outline-none focus:shadow-outline"
               type="submit"
 
             >
